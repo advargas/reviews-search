@@ -1,0 +1,90 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.ais-SearchBox {
+  margin: 1em 0;
+}
+
+.ais-Pagination {
+  margin-top: 1em;
+}
+
+.ais-InstantSearch {
+  max-width: 960px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+@media (min-width: 500px) {
+  .left-panel {
+    float: left;
+    width: 20%;
+  }
+  
+  .right-panel {
+    width: 100%;
+  }
+
+  .ais-Hits-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    list-style-type: none;
+  }
+
+  .ais-Hits-item {
+    display: inline-flex;
+  }
+}
+
+.ais-RefinementList-checkbox {
+  margin-right: 10px;
+}
+
+.ais-Highlight-highlighted {
+  background-color: #ffc168;
+}
+
+.ais-SearchBox-submit {
+  display: none;
+}
+
+.ais-SearchBox-resetIcon {
+  display: none;
+}
+
+.ais-ClearRefinements-button {
+  background-color: #15b881;
+  border: none;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  border-radius: 12px;
+}
+
+.hit-name {
+  margin-bottom: 0.5em;
+}
+
+.hit-description {
+  color: #888;
+  font-size: 14px;
+  margin-bottom: 0.5em;
+}

@@ -1,0 +1,8 @@
+@tailwind base;
+/* estilos base (aplicados a los elementos) */
+@tailwind components;
+/* aquí van nuestras clases de componentes
+ (extraidos, podemos usar @apply para
+ aplicar estilos de tailwind */
+@tailwind utilities;
+/* nuestras utilidades extra */
