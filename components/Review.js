@@ -25,7 +25,7 @@ const ReviewCard = ({hit, insights}) => {
         <a href="#" onClick={() => {
                 insights('clickedObjectIDsAfterSearch', {
                     eventName: 'Search Result Favorite',
-                    objectIDs: [hit.reviewId]
+                    objectIDs: [hit.objectID]
                 });
             }}>
             <Image id="likeImg" src={like} width='30' height='30'/>
